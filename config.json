@@ -1,0 +1,41 @@
+{
+  "manifest_filename": "_addon_sync_manifest.json",
+  "exclude_self": true,
+  "auto_export_after_anki_sync": false,
+  "auto_check_after_anki_sync": false,
+  "copy_codes_separator": " ",
+  "allow_auto_install": true,
+  "enabled_state_sync": {
+    "enabled": true,
+    "apply_after_install": true
+  },
+  "config_sync": {
+    "enabled": true,
+    "prompt_on_export": true,
+    "prompt_on_apply": true,
+    "apply_on_import": false,
+    "include_all_non_sensitive": true,
+    "whitelist": {},
+    "deny_key_hints": [
+      "token",
+      "secret",
+      "password",
+      "passwd",
+      "api_key",
+      "apikey",
+      "key",
+      "auth",
+      "credential",
+      "cookie",
+      "session",
+      "local_path",
+      "path",
+      "cache",
+      "folder",
+      "directory",
+      "dir",
+      "email"
+    ],
+    "prompt_field_selection": true
+  }
+}
